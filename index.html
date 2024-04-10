@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabel Bu - Flutist</title>
+    <style>
+        header{
+            height: 75px;
+            border-bottom: 1px solid ;
+            font-size: 30px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 60px;
+            padding-right: 70px;
+            color: midnightblue;
+            position: fixed;
+            width: 88%;
+            top: 0;
+            background-color: lavenderblush;
+        }
+        body{
+            background: floralwhite;
+            color: midnightblue;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 150;
+            line-height: 1.4;
+        }
+        img{
+            width: 80%;
+            padding-top: 30px;
+        }
+        .about{
+            display: flex;
+            flex-direction: row;
+            margin: 50px;
+            padding-top: 70px;
+        }
+        .bio{
+            font-size: 2vw;
+        }
+        .title{
+            text-align: center;
+            margin-top: 100px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 2vw;
+            justify-content: space-between;
+            color: midnightblue;
+        }
+        iframe{
+            width: 70%;
+            aspect-ratio: 16/9;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Isabel Bu - Flutist</div>
+        <a href="#about">About</a>
+        <a href="#listen">Listen</a>
+        <a href="#contact">Contact</a>
+    </header>
+    <main>
+        <div class="about">
+            <div><img src="0075.jpg" alt=""></div>
+            <div>
+                <a id="about">
+                    <h2>About me</h2>
+                </a>
+                <p class="bio">Hello! I’m a sophomore studying flute performance at the University of Miami Frost School of Music. I attended San Francisco High School of the Arts, where I took dance, art, and music classes from a young age in their Young Artists Program, and discovered my love for the flute in high school.</p>
+                <p class="bio">I received second place in the Silicon Valley Music Competition (high school woodwind division) and a Special Merit Award from the Bay Area Creative Foundation. I’ve also attended many summer festivals including Boston University Tanglewood Institute and Interlochen Arts Camp. I am currently a member of the Frost Symphonic Winds.</p>
+            </div>
+        </div>
+        <div>
+            <a id="listen">
+                <h2 class="title">Listen</h2>
+            </a>
+            <div>
+                <iframe src="https://www.youtube.com/embed/jduLjaiIN0U"></iframe>
+                <iframe src="https://www.youtube.com/embed/mcnpmR7LPys"></iframe>
+            </div>
+        </div>
+        <div class="title">
+            <a id="contact">
+                <h2>Contact</h2>
+            </a>
+            <p class="bio">Get in touch! Feel free to send me an <a href="mailto:t.isabel.bu@gmail.com"><u>email</u></a> &#x3A;&#x29;</p>
+        </div>
+    </main>
+</body>
+</html>
